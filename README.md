@@ -38,9 +38,9 @@ This api is for register a new cutomer, the admin is can add,edit,views all cuto
     "username": "alhuzwiri2s",
     "password": "password123",
     "nama": "John Doe",
-		"saldo": 0
+    "saldo": 0
 }
-
+```
 | Method | Endpoint                          | Description               |
 |--------|-----------------------------------|---------------------------|
 | GET    | http://localhost:8098/api/nasabah | Retrieve all customer details|
@@ -75,7 +75,7 @@ amount will be deducted,reducing their balance accordingly, while the recipient'
   "jumlah": 3400.0,
   "tanggal": "2024-04-25T08:00:00Z"
 }
-
+```
 
 | Method | Endpoint                          | Description                          |
 |--------|-----------------------------------|--------------------------------------|
@@ -104,7 +104,7 @@ the api is for manage user admin, the admin can manage all data transaction and 
     "username": "admin",
     "password": "Admin"
 }
-
+```
 | Method | Endpoint                           | Description                           |
 |--------|------------------------------------|---------------------------------------|
 | GET    | http://localhost:8946/api/admins/3 | Retrieve details of admin user with ID 3 |
@@ -129,3 +129,4 @@ the api is for manage user admin, the admin can manage all data transaction and 
     "username": "admin12",
     "password": "Admin123"
 }
+```
